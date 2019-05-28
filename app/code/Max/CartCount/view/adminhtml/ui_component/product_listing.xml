@@ -1,0 +1,18 @@
+<listing xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Ui:etc/ui_configuration.xsd">
+        <columns name="product_columns">
+          <column name="cart_adds" class="Max\CartCount\Ui\Component\Listing\Column\CartAdds">
+            <argument name="data" xsi:type="array">
+                  <item name="config" xsi:type="array">
+                  <!-- other configurations -->
+                  <item name="bodyTmpl" xsi:type="string">ui/grid/cells/html</item>
+                  </item>
+            </argument>
+             <settings>
+                        <label>cart adds</label>
+            </settings>
+         </column>
+
+         </columns>
+
+        
+</listing>
